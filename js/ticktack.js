@@ -32,11 +32,21 @@
 		
 		zYear.textContent = year;
 		
+		// Adding some siroes
+		if (h < 10)
+			zHour.textContent = "0"+h + " : ";
+		else
+		zHour.textContent = h + " : ";
 		
-		
-		zHour.textContent = h;
-		zMin.textContent = m;
-		zSec.textContent = s;
+		if (m < 10)
+			zMin.textContent = "0"+m + " : ";
+		else
+		zMin.textContent = m + " : ";
+	
+		if (s < 10)
+			zSec.textContent = "0"+s;
+		else
+		zSec.textContent = s
 	};
 
 	refresher();

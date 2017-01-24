@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+	background-color: grey;
+	font-family: Oswald;
+	font-weight: 500;
+}
+
+#gloriousContainer{
+	background-color: yellow;
+	padding: 5px;
+	max-width: 750px;
+	
+}
+
+#h1{
+	color: green;
+}	
+
+#date p, #time p, #weather p{	
+	display: inline;
+}
+
+#date{
+	background-color: brown;
+	
+}
+
+#time{
+	background-color: white;
+	
+}
+
+#weather{
+	background-color: blue;
+	
+}
